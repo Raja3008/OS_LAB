@@ -91,7 +91,6 @@ int main() {
     for (int i = 0; i < n; i++)
         wt[i] = tat[i] - bt[i];
 
-    printf("\nRRS scheduling:\n");
     printf("PID\tAT\tBT\tCT\tTAT\tWT\tRT\n");
     for (int i = 0; i < n; i++)
         printf("%d\t%d\t%d\t%d\t%d\t%d\t%d\n", p_id[i], at[i], bt[i], ct[i], tat[i], wt[i], rt[i]);
