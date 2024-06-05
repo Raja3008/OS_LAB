@@ -88,7 +88,6 @@ void main() {
 
     for (int i = 0; i < n; i++) wt[i] = tat[i] - bt[i];
 
-    printf("Priority scheduling (Pre-Emptive):\n");
     printf("PID\tPrior\tAT\tBT\tCT\tTAT\tWT\tRT\n");
     for (int i = 0; i < n; i++)
         printf("P%d\t %d\t\t%d\t%d\t%d\t%d\t%d\t%d\n", p_id[i], p[i], at[i], bt[i], ct[i], tat[i], wt[i], rt[i]);
